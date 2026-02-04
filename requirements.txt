@@ -1,0 +1,14 @@
+torch
+numpy
+Pillow
+diffusers>=0.12.0,<0.25.0
+librosa
+datasets>=2.9.0
+gradio
+streamlit
+tensorboard
+accelerate
+torchvision
+transformers
+requests==2.31.0
+ipykernel
