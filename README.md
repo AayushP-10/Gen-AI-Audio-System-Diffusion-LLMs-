@@ -14,9 +14,6 @@ Automatically generated audio loop:
 
 https://user-images.githubusercontent.com/44233095/204103172-27f25d63-5e77-40ca-91ab-d04a45d4726f.mp4
 
-More generated samples are available here:  
-https://soundcloud.com/teticio2/sets/audio-diffusion-loops
-
 ---
 
 ## How Audio Diffusion Works
@@ -40,14 +37,14 @@ DDPMs are trained on Mel spectrogram datasets derived from audio files. After tr
 Pretrained models are available for different datasets and configurations, including latent and implicit variants.
 
 | Model | Dataset | Description |
-|------|--------|------------|
-| audio-diffusion-256 | audio-diffusion-256 | General music dataset |
-| audio-diffusion-breaks-256 | audio-diffusion-breaks-256 | Sampled drum breaks |
-| audio-diffusion-instrumental-hiphop-256 | audio-diffusion-instrumental-hiphop-256 | Instrumental hip hop |
-| audio-diffusion-ddim-256 | audio-diffusion-256 | DDIM variant |
-| latent-audio-diffusion-256 | audio-diffusion-256 | Latent diffusion |
-| latent-audio-diffusion-ddim-256 | audio-diffusion-256 | Latent DDIM |
-| conditional-latent-audio-diffusion-512 | audio-diffusion-512 | Conditional latent diffusion |
+|-------|---------|-------------|
+| [teticio/audio-diffusion-256](https://huggingface.co/teticio/audio-diffusion-256) | [teticio/audio-diffusion-256](https://huggingface.co/datasets/teticio/audio-diffusion-256) | My "liked" Spotify playlist |
+| [teticio/audio-diffusion-breaks-256](https://huggingface.co/teticio/audio-diffusion-breaks-256) | [teticio/audio-diffusion-breaks-256](https://huggingface.co/datasets/teticio/audio-diffusion-breaks-256) | Samples that have been used in music, sourced from [WhoSampled](https://whosampled.com) and [YouTube](https://youtube.com) |
+| [teticio/audio-diffusion-instrumental-hiphop-256](https://huggingface.co/teticio/audio-diffusion-instrumental-hiphop-256) | [teticio/audio-diffusion-instrumental-hiphop-256](https://huggingface.co/datasets/teticio/audio-diffusion-instrumental-hiphop-256) | Instrumental Hip Hop music |
+| [teticio/audio-diffusion-ddim-256](https://huggingface.co/teticio/audio-diffusion-ddim-256) | [teticio/audio-diffusion-256](https://huggingface.co/datasets/teticio/audio-diffusion-256) | De-noising Diffusion Implicit Model |
+| [teticio/latent-audio-diffusion-256](https://huggingface.co/teticio/latent-audio-diffusion-256) | [teticio/audio-diffusion-256](https://huggingface.co/datasets/teticio/audio-diffusion-256) | Latent Audio Diffusion model |
+| [teticio/latent-audio-diffusion-ddim-256](https://huggingface.co/teticio/latent-audio-diffusion-ddim-256) | [teticio/audio-diffusion-256](https://huggingface.co/datasets/teticio/audio-diffusion-256) | Latent Audio Diffusion Implicit Model |
+| [teticio/conditional-latent-audio-diffusion-512](https://huggingface.co/teticio/latent-audio-diffusion-512) | [teticio/audio-diffusion-512](https://huggingface.co/datasets/teticio/audio-diffusion-512) | Conditional Latent Audio Diffusion Model |
 
 ---
 
